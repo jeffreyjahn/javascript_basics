@@ -4,10 +4,73 @@
 }
     #background{
         background-color: darkblue;
-        color: gray;
-        width: 
+        color:#6189ab;
+        width: 970px;
+        padding: 10px;
+        position: absolute;
+        box-sizing: border-box;
     }
     #header{
         font-size: 20pt;
-        font-weight: bold
+        font-weight: bold;
+        background-color: #cf3a36;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #navigation{
+        background-color: lightblue;
+        color: rgb(16, 122, 122);
+        width: 20%;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+
+    #main{
+        background-color:#000d1a;
+        width: 77%;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 10px;
+        padding: 10px 15px;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+    #h1{
+        font-size: 18pt;
+        font-weight: bold;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .body{
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+    .lists{
+        list-style-type: disc;
+        margin-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+    }
+    .lists2{
+        list-style-type: circle;
+        margin-left: 20px;
+        box-sizing: border-box;
+    }
+    #footer{
+        width: auto;
+        background-color: rgb(48, 48, 48);
+        border-radius: 30px;
+        text-indent: 20px;
+        text-align: center;
+        color: white;
+        margin: 10px auto;
+        padding: 20px 10px;
+    }
+    .blue-text{
+        color: purple;
     }
